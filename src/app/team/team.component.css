@@ -1,0 +1,63 @@
+@import url('https://fonts.cdnfonts.com/css/dm-sans');
+
+
+p{
+
+    color: white;
+    font-family: DM Sans;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; 
+}
+
+h2{
+
+    color: white;
+    font-family: DM Sans;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 52px; /* 123.81% */
+letter-spacing: -0.4px;
+
+}
+
+.background{
+
+
+background-color: rgb(53, 4, 137);
+
+height: auto;
+padding: 100px 400px 0px 130px ;
+
+}
+
+
+.background.maskname{
+
+    color: white;
+
+    /* Heading / H5 Lead */
+    font-family: DM Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 145.455% */
+
+}
+
+.background.maskjob{
+
+
+    color: white;
+
+    /* Text / Paragraph */
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+
+
+}

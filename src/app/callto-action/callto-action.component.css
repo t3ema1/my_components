@@ -1,0 +1,50 @@
+@import url('https://fonts.cdnfonts.com/css/dm-sans');
+
+.bg-image {
+    background-image: url('src/assets/calltoactionBackgroud.png'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px 10px 30px;
+
+    background-color: rgba(108, 90, 171, 0.95);
+}
+.bg-image .content_wrapper{
+  padding: 0px 570px 0px 570px ;
+  text-align: center;
+}
+.h1{
+
+
+
+    font-family: 'DM Sans', sans-serif;
+    font-size: 58px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px; /* 120.69% */
+letter-spacing: -1px;
+}
+
+.get-started-button {
+    background-color: aqua;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-left: 10px; /* Adjust the margin as needed for spacing */
+  }
+  .custom-youtube-icon {
+    font-size: 48px;
+    color: rgb(255, 0, 13); /* Change the color to your desired style */
+    border-radius: 50%; /* Increase the border radius as needed */
+    /* Add any other styles you want for the icon */
+  }
+  .icon-button-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px; /* Adjust the margin as needed for positioning */
+  }  

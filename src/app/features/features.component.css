@@ -1,0 +1,124 @@
+@import url('https://fonts.cdnfonts.com/css/dm-sans');
+
+
+
+.bg-image{
+
+
+background-image: url('src/assets/featuresBackground.png');
+background-size: cover;
+background-position: center center;
+height:100vh;
+display: flex;
+flex-direction: column;
+background-color: rgba(38, 18, 112, 0.95);
+
+}
+
+.left-image{
+
+background-image: url('src/assets/featuresLeftScreen.png');
+background-size: cover;
+background-position: center center;
+height:75vh;
+width: 26%; /* Adjust the width as needed */
+left: 0; /* Anchors the image to the left edge of the screen */
+top: 12%;
+ /* Anchors the image to the top of the screen */
+z-index: 1; /* Ensures the image is above other content */
+border: 10px solid black;
+border-radius: 10px;
+border-left: none;
+position: absolute;
+
+}
+
+.bg-image .title{
+
+color: rgb(255, 255, 255);
+    text-align: center;
+    
+    margin-top: 14%;
+   
+
+}
+
+.bg-image .title h2{
+
+
+
+    font-family: 'DM Sans', sans-serif;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 52px; /* 123.81% */
+letter-spacing: -0.4px;
+margin-left: 14%;
+margin-right: 27%;
+margin-bottom: 1.7%; /* Add margin to create space between h3 and p */
+
+
+}
+
+
+.bg-image .title p{
+
+
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 17.5%;
+    margin-right: 28%;
+    text-align: left;
+    line-height: 150%;
+    
+
+}
+
+.bg-image .title .symbols{
+
+    color: rgb(255, 255, 255);
+    margin-left: 0%;
+    margin-right: 20%;
+    margin-top: 5%;
+        
+       
+    
+    }
+
+    .bg-image .title .symbols p{
+
+        text-align: left;
+        margin-left: 48%;
+        width: 70%;
+
+        margin-top: 4%;
+
+        
+        }
+.bg-image .title p.paras{
+
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 10px; /* Adjust the margin to control vertical space between paragraphs */
+    margin-left: 10px; /* Adjust the left margin to reduce horizontal space */
+    margin-right: 10px; /* Adjust the right margin to reduce horizontal space */
+        }
+
+        .bg-image .circles{
+
+            text-align: center;
+            justify-content: center;
+
+            color: white;
+            width: 10px; /* Adjust the size as needed */
+  background-color: transparent; /* Circle color */
+  padding: 0px;
+  margin-top: 300px;
+  
+        }

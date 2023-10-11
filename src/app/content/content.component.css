@@ -1,0 +1,64 @@
+
+@import url('https://fonts.cdnfonts.com/css/dm-sans');
+
+.bg-image {
+    background-image: url('src\assets\contentBackground.png'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    background-color: rgba(38, 18, 112, 0.95);
+}
+
+.bg-image p{
+color: white;
+    text-align: center;
+/* Text / Article */
+font-family: 'DM Sans', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 155.556% */
+
+margin-right: 25%;
+margin-left: 25%;
+}
+
+.bg-image h4{
+    color: white;
+
+    text-align: center;
+    /* Text / Label */
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 185.714% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+}
+.bg-image h1{
+
+    color: white;
+
+    text-align: center;
+    /* Heading / H2 Header */
+    font-family: 'DM Sans', sans-serif;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px; /* 120.69% */
+    letter-spacing: -1px;
+
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 2%;
+    
+    
+   
+}
